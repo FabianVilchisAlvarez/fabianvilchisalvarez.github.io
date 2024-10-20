@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Define el lenguaje del documento como español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsivo -->
+    <title>Página de Inicio</title> <!-- Título que se mostrará en la pestaña del navegador -->
+    <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/x-icon"> <!-- Icono que se muestra en la pestaña del navegador -->
+    <link rel="stylesheet" href="assets/css/estilos.css"> <!-- Enlace a la hoja de estilos principal -->
+    <link rel="stylesheet" href="assets/css/normalize.css"> <!-- Enlace a la hoja de estilos para normalizar estilos en diferentes navegadores -->
+
+    <meta name="theme-color" content="#2091F9">
+
+    <!-- Primary Meta Tags -->
+
+    <meta name="title" content="Programación web" />
+    <meta name="description" content="Esta es mi tarea de programación web" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fabianvilchisalvarez.github.io" />
+    <meta property="og:title" content="Programación web" />
+    <meta property="og:description" content="Esta es mi tarea de programación web" />
+    <meta property="og:image" content="https://fabianvilchisalvarez.github.io/assets/images/goran-ivos-iOykDIkZLQw-unsplash.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://fabianvilchisalvarez.github.io" />
+    <meta property="twitter:title" content="Programación web" />
+    <meta property="twitter:description" content="Esta es mi tarea de programación web" />
+    <meta property="twitter:image" content="https://fabianvilchisalvarez.github.io/assets/images/goran-ivos-iOykDIkZLQw-unsplash.jpg" />
+</head>
+<body>
+    <header class="hero"> <!-- Encabezado principal de la página -->
+        <nav class="nav container"> <!-- Navegación del sitio -->
+            <div class="nav__logo"> <!-- Contenedor para el logo -->
+                <h2 class="nav__title">Página Web</h2> <!-- Título del logo -->
+            </div>
+            <ul class="nav__link"> <!-- Lista de enlaces de navegación -->
+                <li class="nav__items"><a href="/assets/pages/inicio.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li class="nav__items"><a href="/assets/pages/arquitectura.html">Arquitectura de servicios</a></li> <!-- Enlace a la página de arquitectura -->
+                <li class="nav__items"><a href="/assets/pages/lenguaje.html">Lenguaje de marcas</a></li> <!-- Enlace a la página de lenguajes de marcas -->
+                <li class="nav__items"><a href="/assets/pages/css.html">CSS3</a></li> <!-- Enlace a la página de CSS3 -->
+                <li class="nav__items nav__close"> <!-- Botón para cerrar el menú -->
+                    <img src="/assets/images/close.svg" class="nav_close_img" alt="Cerrar menú"> <!-- Icono de cerrar menú -->
+                </li>
+            </ul>
+            <div class="nav__menu"> <!-- Contenedor para el botón del menú -->
+                <img src="/assets/images/menu.svg" class="nav_img" alt="Abrir menú"> <!-- Icono de abrir menú -->
+            </div>
+        </nav>
+        <section class="hero__container container"> <!-- Sección principal del encabezado -->
+            <h1 class="hero__title">Programación Web</h1> <!-- Título principal -->
+            <p class="hero__paragraph">Aprendiendo programación web</p> <!-- Descripción breve -->
+            <a href="#" class="cta">Comienza ahora</a> <!-- Botón de llamada a la acción -->
+        </section>
+    </header>
+    
+    <main> <!-- Contenedor principal para el contenido -->
+        <section class="container about"> <!-- Sección que describe lo que se aprenderá -->
+            <h2 class="subtitle">¿Qué aprenderás?</h2> <!-- Subtítulo -->
+            <p class="about__paragraph">Todo lo necesario para la programación Web</p> <!-- Descripción breve -->
+            <div class="about__main"> <!-- Contenedor principal para los artículos -->
+                <article class="about__icons"> <!-- Artículo que presenta un tema específico -->
+                    <img src="/assets/images/shapes.svg" class="about__icon" alt="Icono de CSS Layout"> <!-- Icono relacionado -->
+                    <h3 class="about__title">Arquitectura de servicios Layout</h3> <!-- Título del artículo -->
+                    <p class="about__paragraph">Aprende más</p> <!-- Descripción breve -->
+                </article>
+
+                <article class="about__icons"> <!-- Artículo sobre otro tema -->
+                    <img src="/assets/images/shapes.svg" class="about__icon" alt="Icono de CSS Layout"> <!-- Icono relacionado -->
+                    <h3 class="about__title">Lenguaje de marcas Layout</h3> <!-- Título del artículo -->
+                    <p class="about__paragraph">Aprende más</p> <!-- Descripción breve -->
+                </article>
+
+                <article class="about__icons"> <!-- Artículo sobre otro tema -->
+                    <img src="/assets/images/shapes.svg" class="about__icon" alt="Icono de CSS Layout"> <!-- Icono relacionado -->
+                    <h3 class="about__title">CSS3 Layout</h3> <!-- Título del artículo -->
+                    <p class="about__paragraph">Aprende más</p> <!-- Descripción breve -->
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge"> <!-- Sección dedicada a la oferta de cursos -->
+            <div class="knowledge__container container"> <!-- Contenedor principal -->
+                <div class="knowledge__texts"> <!-- Contenedor para el texto descriptivo -->
+                    <h2 class="subtitle">Programación Web</h2> <!-- Subtítulo -->
+                    <p class="knowledge__paragraph">Domina la Programación Web</p> <!-- Descripción breve -->
+                    <a href="#" class="cta">Entra al curso</a> <!-- Botón de llamada a la acción -->
+                </div>
+
+                <figure class="knowledge__picture"> <!-- Sección para la imagen -->
+                    <img src="/assets/images/farzad-p-xSl33Wxyc-unsplash.jpg" class="knowledge__img" alt=""> <!-- Imagen representativa -->
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
